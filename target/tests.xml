@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" >
+    <test name="Regression1">
+        <classes>
+            <class name="Ecommerce_Tests">
+                <methods>
+                    <include name="verify_product_cost"></include>
+                    <include name="verify_add_products_from_store"></include>
+                    <include name="verify_product_cost"></include>
+                    <include name="verify_add_products_from_store"></include>
+                    <include name="compare_2_products"></include>
+                    <include name="create_account"></include>
+
+                    <include name="prush_prodduct_using_email"></include>
+
+
+
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>
+

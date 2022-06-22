@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Ecommerce_app(failed)">
+    <classes>
+      <class name="Ecommerce_Tests">
+        <methods>
+          <include name="open_browser"/>
+          <include name="prush_prodduct_using_email"/>
+          <include name="close_browser"/>
+        </methods>
+      </class> <!-- Ecommerce_Tests -->
+    </classes>
+  </test> <!-- Ecommerce_app(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
